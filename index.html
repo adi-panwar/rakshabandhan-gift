@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff6ed">
+  <title>For My Favourite Sister ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero screen" id="home">
+      <div class="top-badge">Happy raksha bandhan -  Taniya </div>
+      <div class="hero-rakhi">🪢</div>
+      <p class="eyebrow">A very important delivery</p>
+      <h1>Hey Taniya,<br><span>I have a surprise for you.</span></h1>
+      <p class="sub">Please open this carefully. It cost me a LOT of money.</p>
+      <button class="primary" id="openBtn">Open My Expensive Gift 🎁</button>
+      <p class="tiny">*Expensive emotionally. Financially... let's not discuss that.</p>
+    </section>
+
+    <section class="reveal screen hidden" id="gift">
+      <div class="receipt">
+        <div class="receipt-head">BROTHER'S PREMIUM GIFT RECEIPT</div>
+        <div class="line"><span>Gift for</span><b>Best Sister</b></div>
+        <div class="line"><span>Love</span><b>Unlimited</b></div>
+        <div class="line"><span>Drama</span><b>Lifetime</b></div>
+        <div class="line"><span>Price</span><b class="strike">₹99,999</b></div>
+        <div class="total"><span>Amount payable</span><strong>₹0</strong></div>
+        <div class="receipt-note">Because your brother is already broke. 😂</div>
+      </div>
+
+      <div class="message-card">
+        <span class="stamp">DELIVERED ❤️</span>
+        <p class="eyebrow">Happy Raksha Bandhan</p>
+        <h2>Piyari Bhena ❤️</h2>
+        <p>
+          Main tumhare paas nahi hoon, but I still wanted
+          to give you something made especially for you.
+        </p>
+        <p>
+          Hum ladte hain,piyar kerte hai ,  ek dusre ko irritate karte hain, aur kabhi-kabhi
+          bina reason ke bhi argue kar lete hain... 😂
+          But you're still my favourite sister.
+        </p>
+        <button class="secondary" id="photoBtn">See Your Very Handsome Brother 😎</button>
+      </div>
+    </section>
+
+    <section class="photo-section screen hidden" id="photoSection">
+      <div class="section-label">THE MAIN CHARACTER</div>
+      <div class="photo-frame">
+        <!-- BROTHER PHOTO: replace assets/bhai.jpg with your own photo -->
+        <img id="brotherPhoto" src="assets/bhai.jpg" alt="Brother's photo">
+        
+      </div>
+      <h2>Yes, I know. I'm handsome. 😌</h2>
+      <p class="photo-caption">Proof that your brother really exists. Unfortunately. 😂</p>
+      <button class="primary" id="puzzleBtn">Okay, now earn your gift 🧩</button>
+    </section>
+
+    <section class="puzzle-section screen hidden" id="puzzleSection">
+      <div class="section-label">SISTER CHALLENGE</div>
+      <h2>Rakhi Puzzle 🧩</h2>
+      <p class="instruction">Tap any two tiles to swap them and fix the picture.</p>
+
+      <div class="puzzle-wrap">
+        <div class="puzzle" id="puzzle" aria-label="Rakhi picture puzzle"></div>
+      </div>
+
+      <div class="puzzle-meta">
+        <span>Swaps: <b id="swapCount">0</b></span>
+        <span id="puzzleStatus">You can do it. Probably. 😜</span>
+      </div>
+
+      <button class="secondary hidden" id="continueBtn">Puzzle solved! Open the final message 💌</button>
+    </section>
+
+    <section class="final-section screen hidden" id="finalSection">
+      <div class="final-card">
+        <div class="confetti" aria-hidden="true">🎉 ❤️ ✨ 🪢 ✨ ❤️ 🎉</div>
+        <p class="eyebrow">ONE LAST THING</p>
+        <h2>Happy Raksha Bandhan,<br>meri pyari behen. ❤️</h2>
+
+        <div class="letter">
+          <p>
+            Chahe main kitna bhi door rahun, tu meri life ka important part
+            hamesha rahegi.
+          </p>
+          <p>
+            Thank you for being my sister — even though you have made my
+            life unnecessarily difficult at times. 😂
+          </p>
+          <p>
+            I wish I could be there to tie the Rakhi myself.
+            Until then, consider this little website your digital Rakhi gift.
+          </p>
+          <p class="signature">— Your handsome brother adi ❤️</p>
+        </div>
+
+        <div class="last-joke">
+          <b>Official Sister Terms & Conditions™</b>
+          <ul>
+            <li>I will continue annoying you.</li>
+            <li>I will still steal food.</li>
+            <li>Bahan hamesa bandri hoti hai </li>
+            <li>Chocolate owed: 1 box. No expiry date. 😎</li>
+          </ul>
+        </div>
+
+        <div class="qr-card">
+          <p>And because every expensive gift needs a mysterious  👀</p>
+          <img src="assets/qr.jpg" alt="Decorative QR code">
+          <small> gift fom my side </small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made from far away, especially for you. ❤️</footer>
+  <script src="script.js"></script>
+</body>
+</html>
