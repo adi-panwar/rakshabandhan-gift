@@ -196,7 +196,7 @@ button:focus-visible{outline:3px solid #dca1a7;outline-offset:3px}
 .last-joke ul{margin:12px 0 0;padding-left:20px;color:var(--muted);line-height:1.8}
 .qr-card{margin:28px auto 0;padding:20px;border-top:1px solid var(--line);max-width:330px}
 .qr-card p{font-size:14px;color:var(--muted)}
-.qr-card img{width:400px;height:400px;object-fit:cover;border-radius:18px;border:8px solid white;box-shadow:0 8px 24px #00000012}
+.qr-card img{width:100%;object-fit:cover;border-radius:18px;border:8px solid white;box-shadow:0 8px 24px #00000012}
 .qr-card small{display:block;color:#a08a81;margin-top:10px}
 
 footer{text-align:center;padding:20px;color:#9d877d;font-size:12px}
